@@ -382,7 +382,7 @@ class GPITweeter(DeformableMirror):
         DeformableMirror.__init__(self, shape=(GPI_Globals.gpi_tweet_n, GPI_Globals.gpi_tweet_n))
         self.name = "GPI Tweeter"
         self.numacross = GPI_Globals.gpi_numacross
-        self.actuator_spacing = GPI_Globals.gpi_tweet_spacing
+        #self.actuator_spacing = GPI_Globals.gpi_tweet_spacing
         self.pupil_center = GPI_Globals.pupil_center_tweeter
         self.pupil_diam = GPI_Globals.gpi_tweet_n*GPI_Globals.gpi_tweet_spacing   # for display, projected full area around 48x48 subaps
 
